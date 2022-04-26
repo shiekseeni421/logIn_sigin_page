@@ -1,0 +1,54 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.WrapperContainer{
+    background-color: rgb(255, 213, 0);
+    border: 0px;
+    width: 25%;
+    padding: 20px;
+    height: 500px;
+}
+
+.DisplayButton-Container{
+    background-color: rgb(43, 4, 65);
+    border-radius: 20px;
+    height: 100%;
+    padding: 10px;
+
+}
+
+.DisplayContainer{
+    background-color: rgb(46, 50, 55);
+    border-radius: 5px;
+    height: 15%;
+    cursor:pointer;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.ButtonContainer{
+    margin-top: 10px;
+}
+
+.buttonel{
+    height:65px;
+    width:65px;
+    background-color:rgb(59, 15, 171) ;
+    border-radius: 10px;
+    border-width: 0px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 20px;
+    margin-right: 5px;
+    margin-top: 5px;
+    color: white;
+}
+
+.equalButt{
+    width:130px;
+    background-color: red;
+}

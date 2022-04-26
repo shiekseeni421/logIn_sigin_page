@@ -1,0 +1,92 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+input{
+    outline: none;
+}
+
+.input-MainContainer{
+    background-image: linear-gradient(to right,  #99ffff, #3399ff);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Main-heading{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.Personal-Details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    margin-left: 25px;
+}
+
+.Gender-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.side-heading{
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.top-bott{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.right{
+    margin-left: 10px;
+}
+.left{
+    margin: 5px;
+}
+
+.form-container{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button{
+    padding: 5px 10px;
+    background-color: #3399ff;
+    border-radius: 35px;
+    border-width: 0px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 10px;
+
+}
+
+
+.resultContiner{
+    background-color:white;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 5px;
+
+}
+
+.classbasedContiner{
+    background-image: linear-gradient(to right,  #5e5cbc, #9abe09);
+}
+
+.Note{
+    color: red;
+}
